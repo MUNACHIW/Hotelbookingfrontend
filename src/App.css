@@ -45,6 +45,14 @@ form{
 form div{
   width: 80%;
 }
+.dataholder{
+  overflow-y: scroll;
+  
+  scrollbar-width: none;
+  
+  /* for Firefox */
+  -ms-overflow-style: none;
+}
 form input::placeholder{
   color: white;
 }
